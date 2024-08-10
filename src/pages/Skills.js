@@ -15,9 +15,9 @@ export const Skills = () => {
         <div className="skills-Card" >
         
          <div>
-            <img className="skill-card" src={html} alt="" /> <p>Html</p>  </div>
+            <img className="skill-card" src={html} alt="" /> <p>Html5</p>  </div>
          <div>
-            <img className="skill-card" src={css} alt="" /> <p>CSS</p>  </div>
+            <img className="skill-card" src={css} alt="" /> <p>CSS3</p>  </div>
          <div>
             <img className="skill-card" src={jS} alt="" /> <p>JavaScript</p>  </div>
          <div>
