@@ -1,3 +1,34 @@
 .App {
   text-align: center;
 }
+
+.navBar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  padding: 1rem 0rem 1.5rem;
+  margin: 0rem 3rem;
+  border-bottom: 1px solid gray;
+}
+.navLink{
+  text-decoration: none;
+}
+.navLink:hover{
+  color: skyblue;
+}
+
+.skill-Main{
+  margin: 0rem 3rem 1rem;
+  padding: 1rem 4rem;
+}
+.skills-Card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: space-evenly;
+}
+.skill-card{
+  height: 6.2rem;
+  width: min-content;
+}

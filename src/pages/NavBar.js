@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom"
 
 export const Navbar = () => {
+    
     return(
-        <div>
-            <NavLink>Home</NavLink>
-            <NavLink>About</NavLink>
-            <NavLink>Projects</NavLink>
-            <NavLink>Contact</NavLink>
+        <div className="navBar" >
+            <NavLink className="navLink" >Home</NavLink>
+            <NavLink className="navLink" >About</NavLink>
+            <NavLink className="navLink" >Projects</NavLink>
+            <NavLink className="navLink" >Contact</NavLink>
         </div>
     )
 }

@@ -1,0 +1,31 @@
+.project-Main{
+    background-color: whitesmoke; 
+    margin: 0rem 3rem ; 
+    border-radius: 1rem;
+    padding: 0rem 0rem 1.2rem;
+}
+.project-Heading{
+    text-align: left;
+    font-size: 2.5rem;
+    padding: 1rem 2rem 0rem;
+}
+.project-Cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    /* margin: 1rem; */
+}
+.projectCard {
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    width: min-content;
+    box-shadow: 4px 4px 10px grey;
+    text-decoration: none;
+    color: blueviolet;
+}
+.card-Image{
+    height: 10rem;
+    width: 18rem;
+    border-radius: 1rem;
+}
