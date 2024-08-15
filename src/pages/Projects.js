@@ -12,12 +12,12 @@ export const Projects = () => {
             <h1 className="project-Heading" >Projects</h1>
 
             <div className="project-Cards">
-            <Link className="projectCard" >
+            <Link className="projectCard" to="https://voice-e-commerce-cyan.vercel.app/" target="blank" >
                 <img className="card-Image" src={voiceImg} alt="voiceImg" />
                 <p>Voice E-commerce</p>
                 <p>An ecommerce platform for high quality audio gadgets</p>
             </Link>
-            <Link className="projectCard" >
+            <Link className="projectCard" to="https://social-media-app-gold.vercel.app/" target="blank" >
                 <img className="card-Image" src={socialMedia} alt="voiceImg" />
                 <p>Social Media</p>
                 <p>A Twitter inspired social media platform</p>
@@ -27,7 +27,7 @@ export const Projects = () => {
                 <p>Api Documentation</p>
                 <p>API documentations bulid with tech like NodeJs and Express js</p>
             </Link>
-            <Link className="projectCard" >
+            <Link className="projectCard" to="https://volunteer-management-flame.vercel.app/" target="blank" >
                 <img className="card-Image" src={volunteer} alt="voiceImg" />
                 <p>Volunteer Management App</p>
                 <p>A full Stack project</p>

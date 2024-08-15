@@ -4,6 +4,7 @@ import { Navbar } from './pages/NavBar';
 import { Intro } from './pages/Intro';
 import { Projects } from './pages/Projects';
 import { Skills } from './pages/Skills';
+import { Footer } from './pages/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Intro />
       <Projects />
       <Skills />
+      <Footer />
       
       </Router>
     </div>
