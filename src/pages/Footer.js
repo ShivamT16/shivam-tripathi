@@ -14,7 +14,7 @@ export const Footer = () => {
         </Link>
 
         <Link className="footer-Link" to="https://www.linkedin.com/in/shivam-tripathi16/" target="blank" > 
-        <img src={linkedIn} style={{height: "2.5rem", borderRadius: ".5rem"}} alt="linkedIn" />linkedin.com/in/shivam-tripathi16/
+        <img src={linkedIn} style={{height: "2.5rem", borderRadius: ".5rem"}} alt="linkedIn" />linkedin.com/in/shivam-tripathi16
         </Link>
 
         <Link className="footer-Link" to="https://github.com/ShivamT16" target="blank" >
