@@ -1,10 +1,8 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 import { Navbar } from './pages/NavBar';
-import { Intro } from './pages/Intro';
-import { Projects } from './pages/Projects';
-import { Skills } from './pages/Skills';
-import { Footer } from './pages/Footer';
+import { ProjectPage } from './pages/ProjectsPage';
+import { Home } from './pages/Home';
 
 function App() {
   return (
@@ -12,10 +10,11 @@ function App() {
       <Router>
 
       <Navbar />
-      <Intro />
-      <Projects />
-      <Skills />
-      <Footer />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="/projects" element={<ProjectPage />} />
+      </Routes>
       
       </Router>
     </div>

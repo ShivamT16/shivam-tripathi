@@ -6,9 +6,9 @@ import postMan from "../media/postman.png"
 import volunteer from "../media/volunteer.jpg"
 import projects from "../media/projects.jpg"
 
-export const Projects = () => {
+export const ProjectPage = () => {
     return(
-        <div className="project-Main" >
+        <div className="project-Main">
             <h1 className="project-Heading" >Projects</h1>
 
             <div className="project-Cards">
@@ -32,13 +32,13 @@ export const Projects = () => {
                 <p>Volunteer Management App</p>
                 <p>A full Stack project</p>
             </Link>
-            <Link className="projectCard" to="/projects" >
+            <Link className="projectCard" to="https://drop-ui.vercel.app/" target="blank" >
                 <img className="card-Image" src={projects} alt="voiceImg" />
-                <p>More Projects</p>
-                <p>Click to browse more projects</p>
+                <p>Drop UI</p>
+                <p>A CSS component library</p>
             </Link>
             </div>
-            
-            </div>
+
+        </div>
     )
 }
