@@ -3,6 +3,7 @@ import './App.css';
 import { Navbar } from './pages/NavBar';
 import { ProjectPage } from './pages/ProjectsPage';
 import { Home } from './pages/Home';
+import { LevelZero } from './pages/LevelZeroProject';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/projects/levelzero" element={<LevelZero />} />
       </Routes>
       
       </Router>
