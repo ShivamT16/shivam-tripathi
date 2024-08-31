@@ -29,3 +29,12 @@
     width: 18rem;
     border-radius: 1rem;
 }
+
+.card-title{
+    font-size: medium;
+}
+.card-description{
+    /* border: 1px solid grey; */
+    height: 5.5rem;
+    padding: 0rem .5rem;
+}

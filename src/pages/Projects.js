@@ -22,7 +22,7 @@ export const Projects = () => {
                 <p>Social Media</p>
                 <p>A Twitter inspired social media platform</p>
             </Link>
-            <Link className="projectCard" >
+            <Link className="projectCard" to="/projects" >
                 <img className="card-Image" src={postMan} alt="voiceImg" />
                 <p>Api Documentation</p>
                 <p>API documentations bulid with tech like NodeJs and Express js</p>

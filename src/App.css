@@ -55,3 +55,11 @@
   color: blueviolet;
   align-items: center;
 }
+
+button{
+  margin: 0.5rem .5rem;
+  padding: .4rem 1rem;
+  border: 2px solid lightblue;
+  border-radius: 1rem;
+  cursor: pointer;
+}
