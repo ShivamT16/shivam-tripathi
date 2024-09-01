@@ -2,12 +2,13 @@ import React from 'react'
 import wcsLogo from "../media/wcsindia_logo.jpg"
 import neogLogo from "../media/neoGlogo.png"
 import synexooLogo from "../media/synexoo_logo.png"
+import gbuLogo from "../media/gbuLogo.png"
 import { Link } from 'react-router-dom'
 
 export const About = () => {
   return (
     <div style={{textAlign: "left"}}>
-        <h1>Experience</h1>
+    <h1>Experience</h1>
 
     <div>
      <div style={{display: "flex"}}>
@@ -54,6 +55,19 @@ export const About = () => {
        <li>Served as the primary point of contact for internal office employees regarding IT support</li>
        <li>Provided technical support to clients regarding PBXs and telephony systems</li>
       </p>   
+    </div>
+
+    <h1>Education </h1>
+
+    <div>
+     <div style={{display: "flex"}}>
+       <img style={{height: "5rem"}} src={gbuLogo} alt="comapny" />
+       <div>
+        <p>Bachelor of Technology</p>
+        <p>Gautam Buddha University, Greater Noida </p>
+       </div>
+     </div>
+     <p>Aug 2018 – June 2022</p> <p> CGPA- 7.80 </p> 
     </div>
     
     </div>
