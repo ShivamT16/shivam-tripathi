@@ -5,12 +5,9 @@ import socialMedia from "../media/social-media.jpg"
 import postMan from "../media/postman.png"
 import volunteer from "../media/volunteer.jpg"
 import projects from "../media/projects.jpg"
-import { Navbar } from "./NavBar"
 
 export const ProjectPage = () => {
     return(
-        <div>
-            <Navbar />
         <div className="project-Main">
 
             <h1 className="project-Heading" >Projects</h1>
@@ -113,7 +110,6 @@ export const ProjectPage = () => {
             </Link>
             </div>
 
-        </div>
         </div>
     )
 }

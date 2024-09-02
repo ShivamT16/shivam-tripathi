@@ -4,12 +4,10 @@ import neogLogo from "../media/neoGlogo.png"
 import synexooLogo from "../media/synexoo_logo.png"
 import gbuLogo from "../media/gbuLogo.png"
 import { Link } from 'react-router-dom'
-import { Navbar } from './NavBar'
 
 export const About = () => {
   return (
     <div style={{textAlign: "left"}}>
-      <Navbar />
     <h1>Experience</h1>
 
     <div>

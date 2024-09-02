@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom"
 import postMan from "../media/postman.png"
-import { Navbar } from "./NavBar"
 
 export const LevelZero = () => {
     return (
-     <div>   
-        <Navbar />
+
         <div className="project-Main">
         <h2 className="project-Heading" >NeoG Level Zero Projects</h2>
 
@@ -89,7 +87,6 @@ export const LevelZero = () => {
             </div>
 
             </div>
-    </div>
     </div>
     )
 }
