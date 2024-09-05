@@ -1,0 +1,30 @@
+.about-main{
+    text-align: left;
+    padding: 0rem 4rem;
+}
+.about-heading{
+    margin: 2rem 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid lightgray;
+}
+.exp-card{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    font-size: large;
+}
+.exp-card1{
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    font-size: large;
+}
+.card-img{
+    height: 6rem;
+    border-radius: 1rem;
+}
+.card-detail{
+    margin: -0.5rem 1rem 0rem ;
+    line-height: .8rem;
+}
