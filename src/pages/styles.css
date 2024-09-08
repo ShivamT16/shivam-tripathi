@@ -10,8 +10,8 @@
 .exp-card{
     border-radius: 2rem;
     background-color: whitesmoke;
-    padding: 1rem 2rem;
-    margin: 1rem 0rem;
+    padding: 1.5rem 2rem 1rem;
+    margin: 2rem 0rem;
     font-size: large;
 }
 .exp-card1{
@@ -25,6 +25,6 @@
     border-radius: 1rem;
 }
 .card-detail{
-    margin: -0.5rem 1rem 0rem ;
-    line-height: .8rem;
+    margin: -2rem 1rem 0rem ;
+    /* line-height: .8rem; */
 }

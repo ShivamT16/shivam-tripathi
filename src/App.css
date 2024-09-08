@@ -6,13 +6,16 @@
 }
 
 .navBar{
-  position: fixed;
   display: flex;
   flex-wrap: wrap;
-  gap:11rem;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   font-size: 1.5rem;
-  padding: 2rem 8rem 1.5rem;
-  margin: -1rem 0rem 0rem 1.5rem;
+  padding: 2rem 0rem 1.5rem;
+  margin: 0rem 3rem;
   background-color: white;
   border-bottom: 1px solid gray;
 }
