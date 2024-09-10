@@ -1,3 +1,14 @@
+.intro-main{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    margin: 0rem 3rem
+}
+.intro-card{
+    text-align: left;
+    width: 55%;    
+}
+
 .about-main{
     text-align: left;
     padding: 0rem 4rem;
@@ -26,5 +37,4 @@
 }
 .card-detail{
     margin: -2rem 1rem 0rem ;
-    /* line-height: .8rem; */
 }
