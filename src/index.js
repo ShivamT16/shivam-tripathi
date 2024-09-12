@@ -8,6 +8,7 @@ import { Blogs } from './pages/Blogs';
 import { About } from './pages/About';
 import { Error } from './pages/Error';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { TestMain } from './pages/Testmain';
 
 const appRouter = createBrowserRouter([
 
@@ -18,7 +19,8 @@ const appRouter = createBrowserRouter([
   { path: "/about", element: <About /> },
   { path: "/projects", element: <ProjectPage /> },
   { path: "/projects/levelzero", element: <LevelZero /> },
-  { path: "/blogs", element: <Blogs /> }  
+  { path: "/blogs", element: <Blogs /> },
+  { path: "/test", element: <TestMain /> }  
     ], 
     errorElement: <Error /> },
   
@@ -26,8 +28,8 @@ const appRouter = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <RouterProvider router={appRouter} />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
