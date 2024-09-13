@@ -20,7 +20,6 @@ export class TestOne extends React.Component {
         <div>
             {console.log(this.props.name + "render")}
            <h2> {this.props.name} </h2> 
-           <TestTwo name={"2Name"} />
         </div>
     )
   }

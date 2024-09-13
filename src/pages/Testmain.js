@@ -22,7 +22,7 @@ export class TestMain extends React.Component {
         <div>
             {console.log("main render")}
             <TestOne name={"1Name"} />
-            {/* <TestTwo name={"2Name"} /> */}
+            <TestTwo name={"2Name"} />
         </div>
     )
   }
